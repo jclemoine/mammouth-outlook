@@ -24,12 +24,12 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://github.com/jclemoine/mammouth-outlook/settings/pages"/>
+        <SourceLocation DefaultValue="https://jclemoine.github.io/mammouth-outlook/taskpane.html"/>
       </DesktopSettings>
     </Form>
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://github.com/jclemoine/mammouth-outlook/settings/pages"/>
+        <SourceLocation DefaultValue="https://jclemoine.github.io/mammouth-outlook/taskpane.html"/>
       </DesktopSettings>
     </Form>
   </FormSettings>
