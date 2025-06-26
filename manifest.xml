@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="MailApp">
+  <Id>e3b1f6c9-5a6b-4dca-8a5c-123456789abc</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>TonCabinetAssurance</ProviderName>
+  <DefaultLocale>fr-FR</DefaultLocale>
+  <DisplayName DefaultValue="Mammouth AI Générateur de mail"/>
+  <Description DefaultValue="Add-in Outlook pour générer des mails pro via Mammouth AI"/>
+  <IconUrl DefaultValue="https://via.placeholder.com/32"/>
+  <Capabilities>
+    <Capability Name="MessageRead"/>
+    <Capability Name="MessageCompose"/>
+  </Capabilities>
+  <Hosts>
+    <Host Name="Mailbox"/>
+  </Hosts>
+  <Requirements>
+    <Sets DefaultMinVersion="1.1">
+      <Set Name="Mailbox"/>
+    </Sets>
+  </Requirements>
+  <FormSettings>
+    <Form xsi:type="ItemRead">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://tonserveur.local/taskpane.html"/>
+      </DesktopSettings>
+    </Form>
+    <Form xsi:type="ItemEdit">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://tonserveur.local/taskpane.html"/>
+      </DesktopSettings>
+    </Form>
+  </FormSettings>
+  <Permissions>ReadWriteMailbox</Permissions>
+</OfficeApp>
